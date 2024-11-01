@@ -6,6 +6,7 @@
   padding: 20px;
   max-width: 1320px;
   width: 100%;
+  z-index: 2;
 
   @media (max-width: 480px) {
     flex-direction: column;
@@ -15,7 +16,8 @@
     display: block;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-family: "Pacifico", sans-serif;
+    font-size: 32px;
   }
 
   .navbar__list {
@@ -33,7 +35,7 @@
     .navbar__list_item {
       .navbar__list_item-link {
         position: relative;
-        font-size: 18px;
+        font-size: 20px;
         transition: all 0.3s ease;
 
         &::after {

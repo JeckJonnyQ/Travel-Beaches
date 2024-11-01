@@ -1,6 +1,7 @@
 import "./App.scss";
 import Navbar from "./components/Header/Navbar";
-import Main from "./components/Main/Main";
+import HomeSection from "./components/HomeSection/HomeSection";
+
 import MainBack from "./components/MainBack/MainBack";
 import VideoBack from "./components/VideoBack/VideoBack";
 
@@ -10,7 +11,7 @@ function App() {
       <MainBack />
       <VideoBack />
       <Navbar />
-      {/* <Main /> */}
+      <HomeSection />
     </div>
   );
 }
