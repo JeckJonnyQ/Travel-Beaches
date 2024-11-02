@@ -1,5 +1,5 @@
 .home {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +8,57 @@
   width: 100%;
   min-height: 100vh;
   z-index: 1;
+
+  .home-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      height: 20px;
+      z-index: 0;
+      width: 100%;
+      background: linear-gradient(
+        to top,
+        rgba(0, 35, 44, 0.99) 10%,
+        rgba(0, 35, 44, 0.5) 50%,
+        rgba(0, 35, 44, 0) 100%
+      );
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -39.7px;
+      left: 0;
+      height: 40px;
+      z-index: 0;
+      width: 100%;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 65, 87, 0.99) 10%,
+        rgba(0, 65, 87, 0.5) 70%,
+        rgba(0, 65, 87, 0) 100%
+      );
+    }
+
+    .home-background_photo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+  }
 
   .home__subtitle {
     font-size: 24px;

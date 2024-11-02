@@ -1,10 +1,19 @@
 import "./HomeSection.scss";
 import Button from "../Button/Button";
 import staticHomeLinks from "../../helpers/staticHomeLinks";
+import MainBackground from "../../assets/MainBackground.jpg";
 
 export default function HomeSection() {
   return (
     <section className="home">
+      <div className="home-background">
+        <img
+          src={MainBackground}
+          className="home-background_photo"
+          alt="Main Beach"
+        />
+      </div>
+
       <h2 className="home__subtitle">Discover your place</h2>
       <h1 className="home__title">
         Explore The Best <strong>Beautiful Beaches</strong>

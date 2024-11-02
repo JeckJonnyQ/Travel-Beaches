@@ -1,16 +1,9 @@
 .video-background {
-  position: relative;
-  max-width: 100%;
+  position: fixed;
   width: 100%;
-  min-height: 100vh;
-
-  .video-background__set {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
 }
