@@ -1,5 +1,5 @@
-import ImageOne from "../assets/images/about-image-1.jpg";
-import ImageTwo from "../assets/images/about-image-2.jpg";
+import ImageOne from "../assets/images/about-img-1.jpg";
+import ImageTwo from "../assets/images/about-img-2.jpg";
 
 export const aboutData = {
   title: "More information about the best beaches",

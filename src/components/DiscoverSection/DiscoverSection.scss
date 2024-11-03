@@ -1,0 +1,77 @@
+.discover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .discover__title {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 40px;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .discover__swiper {
+    display: flex;
+    justify-content: center;
+    max-width: 290px;
+    width: 100%;
+    overflow: hidden;
+
+    .swiper-wrapper {
+      width: 100%;
+
+      .swiper-slide {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 290px;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+
+        .discover__swiper_img {
+          max-width: 290px;
+          width: 100%;
+          height: 370px;
+          border-radius: 10px;
+          transition: all 0.5s ease;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        .swiper-slide__text {
+          position: absolute;
+          bottom: 15px;
+          left: 55%;
+          transform: translateX(-50%);
+          width: 100%;
+          padding: 5px;
+
+          .swiper-slide__text_title {
+            width: 100%;
+            font-size: 24px;
+          }
+
+          .swiper-slide__text_location {
+            margin: 5px 0px 0px;
+          }
+        }
+      }
+    }
+  }
+}
