@@ -2,7 +2,7 @@ import "./ExploreSection.scss";
 
 export default function ExploreSection({ props: { title, location, images } }) {
   return (
-    <section className="explore">
+    <section className="explore" id="places">
       <h2 className="explore__title">{title}</h2>
 
       <div className="explore__content">

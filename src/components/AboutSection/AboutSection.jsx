@@ -5,7 +5,7 @@ export default function AboutSection({
   props: { title, description, images },
 }) {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__block">
         <div className="about__block_images">
           {images.map((item) => (

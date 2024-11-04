@@ -10,11 +10,12 @@ import VideoBack from "./components/VideoBack/VideoBack";
 
 import { aboutData } from "./helpers/staticAbout";
 import { exploreData } from "./helpers/staticExplore";
+import { navbarLinks } from "./helpers/staticNavbar";
 
 function App() {
   return (
     <div className="travel-beaches">
-      <Navbar />
+      <Navbar links={navbarLinks} />
       <HomeSection />
       <AboutSection props={aboutData} />
       <DiscoverSection />

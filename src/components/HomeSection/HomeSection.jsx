@@ -5,7 +5,7 @@ import MainBackground from "../../assets/MainBackground.jpg";
 
 export default function HomeSection() {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="home-background">
         <img
           src={MainBackground}
