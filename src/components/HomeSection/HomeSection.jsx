@@ -19,7 +19,7 @@ export default function HomeSection() {
         Explore The Best <strong>Beautiful Beaches</strong>
       </h1>
 
-      <Button text="Explore" />
+      <Button text="Explore"  className="home__btn"/>
 
       <ul className="home__list">
         {staticHomeLinks.map((link) => (

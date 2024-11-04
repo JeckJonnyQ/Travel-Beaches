@@ -4,4 +4,5 @@ export const navbarLinks = [
   { id: 3, name: "About", href: "#", path: "about" },
   { id: 4, name: "Discover", href: "#", path: "discover" },
   { id: 5, name: "Places", href: "#", path: "places" },
+  { id: 6, name: "Contacts", href: "#", path: "contacts" },
 ];

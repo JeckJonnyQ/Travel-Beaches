@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contacts">
       <div className="footer__content">
         <h2 className="footer__content_title">
           Traveling and Enjoy To Explore
