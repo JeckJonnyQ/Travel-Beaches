@@ -4,6 +4,7 @@ import HomeSection from "./components/HomeSection/HomeSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import DiscoverSection from "./components/DiscoverSection/DiscoverSection";
 import ExploreSection from "./components/ExploreSection/ExploreSection";
+import Footer from "./components/Footer/Footer";
 
 import VideoBack from "./components/VideoBack/VideoBack";
 
@@ -18,6 +19,7 @@ function App() {
       <AboutSection props={aboutData} />
       <DiscoverSection />
       <ExploreSection props={exploreData} />
+      <Footer />
 
       <VideoBack />
     </div>
