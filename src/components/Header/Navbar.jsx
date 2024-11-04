@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import { navbarLinks } from "../../helpers/staticNavbar";
+import { navbarLinks } from "../../helpers/staticNavbar.js";
 
 export default function Navbar() {
   return (

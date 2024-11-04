@@ -3,7 +3,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/scss";
 
 import "./DiscoverSection.scss";
-import { slidesData } from "../../helpers/staticDiscover";
+import { slidesData } from "../../helpers/staticDiscover.js";
 
 export default function DiscoverSection() {
   return (

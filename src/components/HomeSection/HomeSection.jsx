@@ -1,6 +1,6 @@
 import "./HomeSection.scss";
 import Button from "../Button/Button";
-import staticHomeLinks from "../../helpers/staticHomeLinks";
+import staticHomeLinks from "../../helpers/staticHomeLinks.js";
 import MainBackground from "../../assets/MainBackground.jpg";
 
 export default function HomeSection() {
