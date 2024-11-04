@@ -6,6 +6,7 @@ import DiscoverSection from "./components/DiscoverSection/DiscoverSection";
 import ExploreSection from "./components/ExploreSection/ExploreSection";
 import Footer from "./components/Footer/Footer";
 
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import VideoBack from "./components/VideoBack/VideoBack";
 
 import { aboutData } from "./helpers/staticAbout";
@@ -22,6 +23,7 @@ function App() {
       <ExploreSection props={exploreData} />
       <Footer />
 
+      <ScrollToTop />
       <VideoBack />
     </div>
   );
