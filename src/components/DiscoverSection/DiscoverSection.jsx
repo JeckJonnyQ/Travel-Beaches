@@ -8,9 +8,11 @@ import { slidesData } from "../../helpers/staticDiscover.js";
 export default function DiscoverSection() {
   return (
     <section className="discover" id="discover">
-      <h2 className="discover__title">Discover The Most Attractive Places</h2>
+      <h2 className="discover__title" data-aos="zoom-in">
+        Discover The Most Attractive Places
+      </h2>
 
-      <div className="discover__swiper">
+      <div className="discover__swiper" data-aos="zoom-in">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}

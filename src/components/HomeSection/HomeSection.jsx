@@ -14,14 +14,16 @@ export default function HomeSection() {
         />
       </div>
 
-      <h2 className="home__subtitle">Discover your place</h2>
-      <h1 className="home__title">
+      <h2 className="home__subtitle" data-aos="fade-down">
+        Discover your place
+      </h2>
+      <h1 className="home__title" data-aos="fade-up">
         Explore The Best <strong>Beautiful Beaches</strong>
       </h1>
 
-      <Button text="Explore"  className="home__btn"/>
+      <Button text="Explore" className="home__btn" />
 
-      <ul className="home__list">
+      <ul className="home__list" data-aos="zoom-in" data-aos-delay="500">
         {staticHomeLinks.map((link) => (
           <li key={link.id} className="home__list_item">
             <a href={link.href} className="home__list_item-link">

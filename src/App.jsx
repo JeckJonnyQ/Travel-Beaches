@@ -1,4 +1,8 @@
+import { useState, useEffect } from "react";
 import "./App.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Navbar from "./components/Header/Navbar";
 import HomeSection from "./components/HomeSection/HomeSection";
 import AboutSection from "./components/AboutSection/AboutSection";
@@ -14,6 +18,13 @@ import { exploreData } from "./helpers/staticExplore";
 import { navbarLinks } from "./helpers/staticNavbar";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className="travel-beaches">
       <Navbar links={navbarLinks} />

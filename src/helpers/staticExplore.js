@@ -12,6 +12,7 @@ export const exploreData = {
       src: DriniBeach,
       name: "Drini Beach",
       alt: "Drini Beach Photo",
+      dataAos: "fade-right",
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ export const exploreData = {
       src: BaronBeach,
       name: "Baron Beach",
       alt: "Baron Beach Photo",
+      dataAos: "fade-up",
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ export const exploreData = {
       src: TrisikBeach,
       name: "Trisik Beach",
       alt: "Trisik Beach Photo",
+      dataAos: "fade-left",
     },
   ],
 };

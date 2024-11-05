@@ -5,6 +5,8 @@ export default function Button({ text, className = "", onClick = () => {} }) {
     <button
       type="button"
       className={`${className} button button-shadow`}
+      data-aos="zoom-in"
+      data-aos-delay="200"
       onClick={onClick}
     >
       {text}
