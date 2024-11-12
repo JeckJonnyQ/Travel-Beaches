@@ -26,20 +26,18 @@
     .content__item {
       position: relative;
       padding: 10px;
-
-      .content__item_link {
-        transition: all 0.5s ease;
-
-        &:hover {
-          opacity: 0.7;
-        }
-      }
+      transition: all 0.5s ease;
 
       .content__item_img {
         display: block;
         max-width: 292px;
         width: 100%;
         border-radius: 10px;
+        transition: all 0.5s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
       }
 
       .content__item-text {
